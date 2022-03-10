@@ -19,6 +19,7 @@ html {
     min-width: 320px;
     min-height: 100%;
     font-size: 16px;
+    color: var(--text-color);
 }
 
 img {
@@ -44,6 +45,14 @@ a {
     padding: 0;
     background: transparent;
     cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-color);
+    background-color: var(--accent1-color);
 }
 
 .list-reset {

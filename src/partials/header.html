@@ -1,9 +1,15 @@
 <header class="header">
-    <div class="container">
-        <picture>
-            <source srcset="../img/logo.avif" type="image/avif">
-            <source srcset="../img/logo.webp" type="image/webp">
-            <img loading="lazy" src="../img/logo.png." class="image" width="" height="" alt="">
-        </picture>
+    <div class="container header-container">
+        <a href="/" class="header-logo">
+            <picture>
+                <source srcset="../img/logo.avif" type="image/avif">
+                <source srcset="../img/logo.webp" type="image/webp">
+                <img loading="lazy" src="../img/logo.png." class="image" alt="logo">
+            </picture>
+        </a>
+        <button class="btn-reset btn header-btn" data-graph-path="">Начать беседу</button>
+        <button class="burger btn-reset" aria-label="Открыть меню" data-burger>
+            <span class="burger__line"></span>
+        </button>
     </div>
 </header>

@@ -3,8 +3,8 @@
 :root {
     // base
     --font-family: "Inter";
-    --content-width: 1150px;
-    --container-offset: 15px;
+    --content-width: 1120px;
+    --container-offset: 20px;
     --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
     // colors
@@ -12,4 +12,5 @@
     --accent1-color: #00b9b6;
     --accent2-color: #ffa800;
     --appstore-color: #2e3a59;
+    --text-color: #0e0e0f;
 }
