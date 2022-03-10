@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru" class="page">
 
-@include('partials/head.html')
+@include('partials/head.html',{"title":"Speak"})
 
 <body class="page__body">
     <div class="site-container">
         @include('partials/header.html')
         <main class="main">
-            <button class="btn-reset " data-graph-path="">App Store</button>
+            @include('partials/banner.html')
         </main>
 
         @include('partials/footer.html')
